@@ -27,9 +27,10 @@ body {
 .letter {
   cursor: default;
   display: inline-block;
+  transition: color 0.3s ease;
 }
 .letter:hover {
-  color: #1E88E5;
+  color: #e5a61e;
 }
 
 @keyframes rubberband {
